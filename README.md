@@ -18,26 +18,26 @@ composer require your-vendor-name/ci4-hmvc-generator
 ## Usage
 This package provides the following commands:
 
-`**Setup HMVC Structure**`
+ **Setup HMVC Structure**
 
 ```bash
 php spark hmvc:setup
 ```
 This command sets up the basic HMVC structure in your CodeIgniter 4 project.
 
-`** Create a New HMVC Module **`
+ **Create a New HMVC Module**
 ```bash
 php spark hmvc:module ModuleName
 ```
 This command creates a new HMVC module with the specified name.
 
-`** Generate a New Controller **`
+ **Generate a New Controller**
 ```bash
 php spark hmvc:controller ModuleName ControllerName
 ```
 This command generates a new controller within the specified HMVC module.
 
-`** Generate a New Model **`
+ **Generate a New Model**
 ```bash
 php spark hmvc:model ModuleName ModelName
 ```
