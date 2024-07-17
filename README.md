@@ -12,7 +12,7 @@ CI4 HMVC Generator is a powerful toolkit designed to facilitate the implementati
 You can install this package via Composer. Run the following command in your terminal:
 
 ```bash
-composer require your-vendor-name/ci4-hmvc-generator
+composer require garmaser/ci4-hmvc-generator
 ```
 
 ## Usage
