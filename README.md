@@ -11,34 +11,41 @@ CI4 HMVC Generator is a powerful toolkit designed to facilitate the implementati
 
 You can install this package via Composer. Run the following command in your terminal:
 
-bash
+```bash
 composer require your-vendor-name/ci4-hmvc-generator
+```
 
-Usage
+## Usage
 This package provides the following commands:
 
-Setup HMVC Structure
-bash
+`**Setup HMVC Structure**`
+
+```bash
 php spark hmvc:setup
+```
 This command sets up the basic HMVC structure in your CodeIgniter 4 project.
 
-Create a New HMVC Module
-bash
+`** Create a New HMVC Module **`
+```bash
 php spark hmvc:module ModuleName
+```
 This command creates a new HMVC module with the specified name.
 
-Generate a New Controller
-bash
+`** Generate a New Controller **`
+```bash
 php spark hmvc:controller ModuleName ControllerName
+```
 This command generates a new controller within the specified HMVC module.
 
-Generate a New Model
-bash
+`** Generate a New Model **`
+```bash
 php spark hmvc:model ModuleName ModelName
+```
 This command generates a new model within the specified HMVC module.
 
-Structure
+## Structure
 After setting up HMVC, your project structure will look like this:
+```bash
 app/
 └── Modules/
     └── YourModule/
@@ -47,17 +54,21 @@ app/
         ├── Controllers/
         ├── Models/
         └── Views/
-
-Contributing
+```
+## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
-License
+
+## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
-Support
+
+## Support
 If you discover any security-related issues, please email sergiogarciamamani@gmail.com instead of using the issue tracker.
 
-Credits
-Sergio Garcia Mamani
-Adalid Alanoca Ramirez
+## Credits
 
-About
+ Sergio Garcia Mamani
+ 
+ Adalid Alanoca Ramirez
+
+## About
 CI4 HMVC Generator is a package developed to enhance the modular capabilities of CodeIgniter 4. We're dedicated to making development with CodeIgniter 4 more efficient and enjoyable.
