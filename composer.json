@@ -4,19 +4,44 @@
     "type": "library",
     "require": {
         "php": "^7.4|^8.0|^8.1|^8.2",
-        "codeigniter4/framework": "^4.5.3"
+        "codeigniter4/framework": "^4.5"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "garmaser\\ci4-hmvc-generator\\": "src/"
+            "Garmaser\\Ci4HmvcGenerator\\": "src/"
         }
     },
     "authors": [
         {
             "name": "Sergio Garcia Mamani",
-            "email": "sergiogarciamamani@gmail.com"
+            "email": "sergiogarciamamani@gmail.com",
+            "role": "Author"
+        },
+        {
+            "name": "Adalid Alanoca Ramirez",
+            "email": "adalidalanocaramirez@gmail.com",
+            "role": "Author"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "beta",
+    "prefer-stable": true,
+    "support": {
+        "issues": "https://github.com/garmaser/ci4-hmvc-generator/issues",
+        "source": "https://github.com/garmaser/ci4-hmvc-generator"
+    },
+    "keywords": [
+        "codeigniter4",
+        "ci4",
+        "codeigniter 4",
+        "codeigniter",
+        "hmvc",
+        "generator",
+        "commands"
+    ],
+    "homepage": "https://github.com/garmaser/ci4-hmvc-generator",
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
 }
