@@ -5,7 +5,7 @@ CI4 HMVC Generator is a powerful toolkit designed to facilitate the implementati
 ## Requirements
 
 - PHP 7.4 or later
-- CodeIgniter 4.5.3 or later
+- CodeIgniter 4.5 or later
 
 ## Installation
 
@@ -14,6 +14,8 @@ You can install this package via Composer. Run the following command in your ter
 ```bash
 composer require garmaser/ci4-hmvc-generator
 ```
+
+The commands will be automatically copied to your `app/Commands/Hmvc` directory.
 
 ## Usage
 This package provides the following commands:
@@ -67,8 +69,9 @@ If you discover any security-related issues, please email sergiogarciamamani@gma
 ## Credits
 
  Sergio Garcia Mamani
+ sergiogarciamamani@gmail.com
  
  Adalid Alanoca Ramirez
-
+ adalidalanocaramirez@gmail.com
 ## About
 CI4 HMVC Generator is a package developed to enhance the modular capabilities of CodeIgniter 4. We're dedicated to making development with CodeIgniter 4 more efficient and enjoyable.

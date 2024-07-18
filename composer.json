@@ -9,7 +9,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Garmaser\\Ci4HmvcGenerator\\": "src/"
+            "garmaser\\Ci4HmvcGenerator\\": "src/"
         }
     },
     "authors": [
@@ -24,7 +24,7 @@
             "role": "Author"
         }
     ],
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "support": {
         "issues": "https://github.com/garmaser/ci4-hmvc-generator/issues",
@@ -43,5 +43,19 @@
     "config": {
         "optimize-autoloader": true,
         "sort-packages": true
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "garmaser\\Ci4HmvcGenerator\\ComposerScripts::postInstall"
+        ],
+        "post-update-cmd": [
+            "garmaser\\Ci4HmvcGenerator\\ComposerScripts::postUpdate"
+        ]
+    },
+    "repositories": {
+        "local": {
+            "type": "path",
+            "url": "/home/garmaser/www/ci4-hmvc-generator"
+        }
     }
 }
