@@ -24,7 +24,7 @@
             "role": "Author"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "beta",
     "prefer-stable": true,
     "support": {
         "issues": "https://github.com/garmaser/ci4-hmvc-generator/issues",
