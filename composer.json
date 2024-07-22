@@ -26,36 +26,17 @@
     ],
     "minimum-stability": "beta",
     "prefer-stable": true,
-    "support": {
-        "issues": "https://github.com/garmaser/ci4-hmvc-generator/issues",
-        "source": "https://github.com/garmaser/ci4-hmvc-generator"
-    },
-    "keywords": [
-        "codeigniter4",
-        "ci4",
-        "codeigniter 4",
-        "codeigniter",
-        "hmvc",
-        "generator",
-        "commands"
-    ],
-    "homepage": "https://github.com/garmaser/ci4-hmvc-generator",
-    "config": {
-        "optimize-autoloader": true,
-        "sort-packages": true
-    },
     "scripts": {
         "post-install-cmd": [
-            "garmaser\\Ci4HmvcGenerator\\ComposerScripts::postInstall"
+            "garmaser\\Ci4HmvcGenerator\\ComposerScripts::copyCommands"
         ],
         "post-update-cmd": [
-            "garmaser\\Ci4HmvcGenerator\\ComposerScripts::postUpdate"
+            "garmaser\\Ci4HmvcGenerator\\ComposerScripts::copyCommands"
         ]
     },
-    "repositories": {
-        "local": {
-            "type": "path",
-            "url": "/home/garmaser/www/ci4-hmvc-generator"
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
         }
     }
 }
